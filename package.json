@@ -7,10 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kevin Palmer",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
     "isomorphic-unfetch": "^3.0.0"
+  },
+  ,
+  "bin": {
+    "check-redirects": "./cli.js"
   }
 }
